@@ -2,28 +2,30 @@ PersonalRouter = Backbone.Router.extend({
 
 	routes: {
 		"home"			: "home",
-		"newEvent"		: "createNew",
-		"new_leave_event": "createNewLeave",
+		"sample"		: "sample",
 		"about"			: "about",
 		""				: "home"
 		
 	},
 
 	home: function() {
+		$('.container').html('') 
+		new MainView()
 		
 	},
 
 	about: function() {
+		$('.container').html('') 
+		new AboutView()
 	
 	},
 
-	createNew: function() {
+	sample: function() {
+		$('.container').html('') 
+		new SampleView()
 	 
 	},
 
-	createNewLeave: function() {
-		
-	},
 
 
 })
