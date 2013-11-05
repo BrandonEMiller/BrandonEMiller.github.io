@@ -18,10 +18,12 @@ MainView = Backbone.View.extend({
 	initialize: function() {
 		$('.container').append(this.el)
 		this.render()
+		console.log("Home View")
 	},
 
 	render: function(){
 		this.$el.append(this.template())
+		console.log("Render Home")
 	},
 
 })

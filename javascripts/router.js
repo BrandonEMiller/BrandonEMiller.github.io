@@ -1,4 +1,4 @@
-PersonalRouter = Backbone.Router.extend({
+Router = Backbone.Router.extend({
 
 	routes: {
 		"home"			: "home",
@@ -11,6 +11,7 @@ PersonalRouter = Backbone.Router.extend({
 	home: function() {
 		$('.container').html('') 
 		new MainView()
+		console.log("Home")
 		
 	},
 
@@ -29,5 +30,5 @@ PersonalRouter = Backbone.Router.extend({
 
 
 })
-var router = new PersonalRouter() 
+var router = new Router() 
 Backbone.history.start()

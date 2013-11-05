@@ -30,6 +30,10 @@ header .links {
   display: inline-block;
 }
 
+h2 {
+  text-align: center
+}
+
 .header_container {
    width: 1000px;
   margin: 0 auto;
