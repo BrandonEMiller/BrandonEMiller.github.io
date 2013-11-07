@@ -2,33 +2,33 @@ Router = Backbone.Router.extend({
 
 	routes: {
 		"home"			: "home",
-		"sample"		: "sample",
-		"about"			: "about",
-		""				: "home"
+		"resume"		: "resume",
+		""				: "redirect"
 		
+	},
+
+	redirect: function() {
+		router.navigate('home', {trigger: true});
 	},
 
 	home: function() {
 		$('.container').html('') 
+		
 		new MainView()
 		console.log("Home")
+
 		
 	},
 
-	about: function() {
+	resume: function() {
 		$('.container').html('') 
-		new AboutView()
+		new ResumeView()
+
+		console.log("Resume")
 	
 	},
 
-	sample: function() {
-		$('.container').html('') 
-		new SampleView()
-	 
-	},
-
-
-
+	
 })
 var router = new Router() 
 Backbone.history.start()

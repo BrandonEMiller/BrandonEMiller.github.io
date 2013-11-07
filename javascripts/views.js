@@ -1,16 +1,4 @@
-AboutView = Backbone.View.extend({
-	template: _.template(  $('#about-template').text() ),
 
-	initialize: function() {
-		$('.container').append(this.el)
-		this.render()
-	},
-
-	render: function(){
-		this.$el.append(this.template())
-	},
-
-})
 
 MainView = Backbone.View.extend({
 	template: _.template(  $('#main-template').text() ),
@@ -19,25 +7,32 @@ MainView = Backbone.View.extend({
 		$('.container').append(this.el)
 		this.render()
 		console.log("Home View")
+		$(window).load(function() {
+		    $('.flexslider').flexslider();
+		  });
 	},
 
 	render: function(){
-		this.$el.append(this.template())
+		console.log(this.$el)
+		this.$el.html( $('#main-template').text())
+		   $('.flexslider').flexslider();      
 		console.log("Render Home")
 	},
 
 })
 
-SampleView = Backbone.View.extend({
-	template: _.template(  $('#work-sample-template').text() ),
+ResumeView = Backbone.View.extend({
+	template: _.template(  $('#about-template').text() ),
 
 	initialize: function() {
+
 		$('.container').append(this.el)
 		this.render()
 	},
 
 	render: function(){
-		this.$el.append(this.template())
+		console.log(this.$el)
+		this.$el.html($('#about-template').text())
 	},
 
 })
