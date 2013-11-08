@@ -96,6 +96,23 @@ body {
 .intro {
   margin-top: 50px;
 }
+.intro-resume {
+  margin-top: 50px;
+}
+.intro-resume h1 {
+  margin: 0px;
+
+  padding-top: 20px; 
+}
+
+.intro-resume h3 {
+  margin: 0px;
+}
+
+.resume-title {
+  text-decoration: underline;
+  font-size: 18px;
+}
 
 .work_sample_container h2{
   text-align: center;
