@@ -18,6 +18,13 @@ header {
   display: inline-block;
   padding-right: 20px;
   line-height: 75px;
+  font-family: Nixie One;
+  color: rgb(232,232,232);
+  font-size: 22px;
+}
+
+.header_name:hover{
+    background: rgb(46, 221, 212);
 }
 
 a {
@@ -42,14 +49,6 @@ a {
     background: rgb(46, 221, 212);
 }
 
-header h2 {
-  display: block;
-  font-family: Nixie One;
-  color: rgb(232,232,232);
-  margin: 0;
-
-
-}
 
 header h4 {
   display: block;
@@ -192,6 +191,118 @@ footer {
   height: 50px;
 }
 
+
+@media (max-width: 1025px) {
+  .container {
+    width: 800px;
+  }
+
+  .header_container {
+    width: 800px;
+  }
+
+  .footer_container{
+    width: 800px;
+  }
+ 
+}
+
+@media (max-width: 840px) {
+  .header_name{
+    display: block;
+    border: 0px;
+    text-align: center;
+    border-bottom: 1px solid white;
+  }
+
+  header {
+    height: 152px;
+  }
+
+  .social_link {
+    font-size: 15px;
+  }
+
+  .links {
+    margin: 0 auto;
+  }
+
+  .container {
+    width: 600px;
+  }
+
+  .header_container {
+    width: 600px;
+  }
+
+  .footer_container{
+    width: 600px;
+  }
+ 
+}
+
+@media (max-width: 630px) {
+ 
+ .social_link {
+    font-size: 14px;
+    padding: 0 14px;
+  }
+
+  .container {
+    width: 500px;
+  }
+
+  .header_container {
+    width: 500px;
+  }
+
+  .footer_container{
+    width: 500px;
+  }
+ 
+}
+
+@media (max-width: 520px) {
+ 
+ .social_link {
+    font-size: 14px;
+    padding: 0 6px;
+  }
+
+  .container {
+    width: 400px;
+  }
+
+  .header_container {
+    width: 400px;
+  }
+
+  .footer_container{
+    width: 400px;
+  }
+ 
+}
+
+@media (max-width: 430px) {
+ 
+ .social_link {
+    font-size: 14px;
+    padding: 0 2px;
+  }
+
+  .container {
+    width: 350px;
+  }
+
+  .header_container {
+    width: 350px;
+  }
+
+  .footer_container{
+    width: 350px;
+  }
+ 
+}
 
 
 
