@@ -49,6 +49,24 @@ a {
     background: rgb(46, 221, 212);
 }
 
+.social_link1 {
+  height: 75px;
+  border-right: 1px solid rgb(232,232,232);
+  font-family: Nixie One;
+  display: inline-block;
+  line-height: 75px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: rgb(232,232,232);
+  margin-left: -4px;
+  margin-top: -1px;
+
+}
+
+.social_link1:hover{
+    background: rgb(46, 221, 212);
+}
+
 
 header h4 {
   display: block;
@@ -222,6 +240,11 @@ footer {
 
   .social_link {
     font-size: 15px;
+  } 
+  .social_link1 {
+    font-size: 15px;
+    border-left: 1px solid white;
+    margin-left: -1px;
   }
 
   .links {
@@ -247,6 +270,10 @@ footer {
  .social_link {
     font-size: 14px;
     padding: 0 14px;
+  } 
+  .social_link1 {
+    font-size: 14px;
+    padding: 0 14px;
   }
 
   .container {
@@ -268,6 +295,10 @@ footer {
  .social_link {
     font-size: 14px;
     padding: 0 6px;
+  } 
+  .social_link1 {
+    font-size: 14px;
+    padding: 0 6px;
   }
 
   .container {
@@ -287,6 +318,10 @@ footer {
 @media (max-width: 430px) {
  
  .social_link {
+    font-size: 14px;
+    padding: 0 2px;
+  }
+  .social_link1 {
     font-size: 14px;
     padding: 0 2px;
   }
