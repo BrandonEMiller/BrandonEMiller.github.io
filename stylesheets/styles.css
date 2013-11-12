@@ -17,6 +17,7 @@ header {
   height: 78px;
   display: inline-block;
   padding-right: 20px;
+  padding-left: 20px;
   line-height: 75px;
   font-family: Nixie One;
   color: rgb(232,232,232);
@@ -99,6 +100,10 @@ h2 {
   padding: 10px;
 }
 
+.container p {
+  padding: 0 105px;
+}
+
 body {
   font-family: Nixie One;
 }
@@ -116,6 +121,7 @@ body {
 }
 .intro-resume {
   margin-top: 50px;
+  padding: 0 105px;
 }
 .intro-resume h1 {
   margin: 0px;
@@ -280,6 +286,10 @@ footer {
     width: 500px;
   }
 
+  .intro-resume {
+  padding: 0 75px;
+  }
+
   .header_container {
     width: 500px;
   }
@@ -305,6 +315,14 @@ footer {
     width: 400px;
   }
 
+  .container p {
+  padding: 0 60px;
+}
+
+  .intro-resume {
+  padding: 0 39px;
+  }
+
   .header_container {
     width: 400px;
   }
@@ -328,6 +346,14 @@ footer {
 
   .container {
     width: 350px;
+  }
+
+  .container p {
+  padding: 0 45px;
+}
+
+.intro-resume {
+  padding: 0 15px;
   }
 
   .header_container {
