@@ -8,6 +8,7 @@ Router = Backbone.Router.extend({
 	},
 
 	redirect: function() {
+
 		router.navigate('home', {trigger: true});
 	},
 
@@ -31,4 +32,5 @@ Router = Backbone.Router.extend({
 	
 })
 var router = new Router() 
-Backbone.history.start()
+Backbone.history.start();
+router.navigate('home');
