@@ -218,6 +218,11 @@ footer {
 
 
 @media (max-width: 1025px) {
+.social_link {
+    font-size: 15px;
+    padding: 0 14px;
+  } 
+
   .container {
     width: 800px;
   }
@@ -275,11 +280,11 @@ footer {
  
  .social_link {
     font-size: 14px;
-    padding: 0 14px;
+    padding: 0 10px;
   } 
   .social_link1 {
     font-size: 14px;
-    padding: 0 14px;
+    padding: 0 10px;
   }
 
   .container {
@@ -304,11 +309,11 @@ footer {
  
  .social_link {
     font-size: 14px;
-    padding: 0 6px;
+    padding: 0 3px;
   } 
   .social_link1 {
     font-size: 14px;
-    padding: 0 6px;
+    padding: 0 3px;
   }
 
   .container {
@@ -337,11 +342,11 @@ footer {
  
  .social_link {
     font-size: 14px;
-    padding: 0 2px;
+    padding: 0 1px;
   }
   .social_link1 {
     font-size: 14px;
-    padding: 0 2px;
+    padding: 0 1px;
   }
 
   .container {
@@ -357,7 +362,7 @@ footer {
   }
 
   .header_container {
-    width: 350px;
+    width: 370px;
   }
 
   .footer_container{
